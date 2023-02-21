@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: orbitron;
+    font-size: 42px;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 4, 39);
+    text-align: center;
+    flex-direction: column;
+}
+
+section .clock {
+    color: rgb(139, 24, 24);
+}
+
+.format {
+    margin-top: 30px;
+    font-size: 30px;
+    color: aqua;
+}
+
+.format button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    font-family: orbitron;
+    margin: 12px;
+}
